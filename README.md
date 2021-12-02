@@ -29,7 +29,7 @@ Meanwhile, software load balancers:
 ## Why layer 7 ?
 
 Doing load balancing at this layer allows us to handle request at the http level. Which allows us to multiplex our requests
-with far more richer and complex data. For example rather than to use an obscure numeric flag on the a low level protocol packet(which is be very fast).
+with far more richer and complex data. For example rather than to use an obscure numeric flag on a low level protocol packet(which happens very fast).
 We can multiplex data on the contents of an http request for example header data. 
 
 
